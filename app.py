@@ -15,7 +15,7 @@ st.title("💰 Investment Tracker (Gold & Silver)")
 investment_type = st.selectbox("Select Investment Type", ["Gold", "Silver"])
 
 # Inputs
-grams = st.number_input("Enter weight (grams)", min_value=0.01, format="%.2f")
+grams = st.number_input("Enter weight (grams)", min_value=0.01, format="%.2f") 
 price = st.number_input("Enter price (per gram or total)", min_value=0.0, format="%.2f")
 date = st.date_input("Date of Purchase", datetime.today())
 
